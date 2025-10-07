@@ -50,7 +50,7 @@ export default function Home() {
             className="px-2 w-[50rem]"
             onInput={(e) => setText(e.target.value)}
           />
-          <div className="text-lg border p-2 rounded-md cursor-pointer" onClick={data}>
+          <div className="text-lg border p-2 rounded-md" onClick={data}>
             Click
           </div>
         </div>
